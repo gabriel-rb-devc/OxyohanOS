@@ -29,17 +29,6 @@ Este projeto é mantido em colaboração oficial entre os canais:
 ## 🚀 Nossas Distribuições
 
 O ecossistema se divide em duas ramificações principais, ambas utilizando atualmente a interface **XFCE**, garantindo leveza máxima e alto desempenho.
-
-
-
-![wall](imagens/WallpaperBase.png)
-### 🐧 Oxys Base (Debian Edition)
-*   **Desenvolvedor:** Gabriel (`@fprowindows`)
-*   **Foco principal:** Desenvolvimento de software e performance. Ele vem totalmente preparado para quem programa em **linguagem C** e outras linguagens de baixo ou alto nível.
-*   **Base do Sistema:** Construído sobre a rocha sólida do **Debian Estável**. Para garantir a máxima estabilidade e compatibilidade em ambientes de produção e hardware variados, o sistema utiliza bases consolidadas como o **Debian 12.1** e outras versões anteriores altamente testadas.
-*   **Público-alvo:** Desenvolvedores, programadores e usuários avançados que precisam de um ambiente que nunca quebra.
-![print](imagens/oxys-print.png)
----
 ![wall](imagens/WallpaperYohan.png)
 ### 🎨 OxyohanOS
 *   **Desenvolvedor:** Johnzin (`@JohnzinOmochain`)
@@ -71,7 +60,7 @@ Este sistema e seu código-fonte original (scripts de otimização, ajustes de k
 Para garantir compatibilidade imediata de hardware (como placas Wi-Fi, Bluetooth e touchpads) em notebooks e MacBooks, o sistema inclui drivers e firmwares pré-compilados redistribuídos a partir dos repositórios oficiais `non-free` e `non-free-firmware` da distribuição Debian.
 ---
 ## Trabalhando
-**Oxys OS**: Projeto paralizado
+**Oxys OS**: nao existe mas pois ha outro projeto com um nome parecido
 
 **OxyohanOS**: Projetando a Build 35...
 
