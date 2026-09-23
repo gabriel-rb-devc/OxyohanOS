@@ -26,11 +26,8 @@ Este projeto é mantido em colaboração oficial entre os canais:
 
 ---
 
-## 🚀 Nossas Distribuições
-
-O ecossistema se divide em duas ramificações principais, ambas utilizando atualmente a interface **XFCE**, garantindo leveza máxima e alto desempenho.
 ![wall](imagens/WallpaperYohan.png)
-### 🎨 OxyohanOS
+## 🎨 Resumo do OxyohanOS
 *   **Desenvolvedor:** Johnzin (`@JohnzinOmochain`)
 *   **sub desenvolvedor** Gabriel Ramos Barbosa
 *   **Foco principal:** Uso normal/cotidiano e experiência de usuário de ponta.
@@ -42,7 +39,9 @@ O ecossistema se divide em duas ramificações principais, ambas utilizando atua
 
 ## 🛠️ Filosofia do Ecossistema
 
-O Universo Oxy nasceu da ideia de que um sistema operacional não precisa ser genérico. Enquanto a **Oxy Base** entrega o motor bruto, estável e otimizado para codificação pesada, o **OxyohanOS** lapida essa estrutura para entregar uma interface bonita e acessível para o uso diário. 
+O Oxyohan segue as filosofias:
+Ubuntu, um sistema fácil em usabilidade, desde ao iniciante ao dev sênior e
+"Um projeto atrasado sempre será mais otimizado, enquanto um adiantado sempre será mais crashado" - JohnzinOmochain
 
 Navegue pelo menu lateral para acessar o guia de instalação, documentação do kernel e repositórios de pacotes de cada versão!
 
@@ -60,9 +59,7 @@ Este sistema e seu código-fonte original (scripts de otimização, ajustes de k
 Para garantir compatibilidade imediata de hardware (como placas Wi-Fi, Bluetooth e touchpads) em notebooks e MacBooks, o sistema inclui drivers e firmwares pré-compilados redistribuídos a partir dos repositórios oficiais `non-free` e `non-free-firmware` da distribuição Debian.
 ---
 ## Trabalhando
-**Oxys OS**: nao existe mas pois ha outro projeto com um nome parecido
-
-**OxyohanOS**: Projetando a Build 35...
+**OxyohanOS**: Ativo
 
 ------
 
