@@ -60,6 +60,7 @@ Para garantir compatibilidade imediata de hardware (como placas Wi-Fi, Bluetooth
 ---
 ## Trabalhando
 **OxyohanOS**: Ativo
+**NeoOxys**: Em breve
 
 ------
 
