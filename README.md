@@ -63,6 +63,12 @@ Para garantir compatibilidade imediata de hardware (como placas Wi-Fi, Bluetooth
 **NeoOxys**: Em breve
 
 ------
+## Central Manager
+Esse é um software **livre de código aberto** que é uma central de manuntanção para esta distro
+Caso alguem queira aprimorar essa ferramenta, fique à vontade!
+[Github do centralmgr](https://github.com/Johnzin-WakaWaka/central-manager-for-OxyohanOS)
+
+------
 
 ## 🤝 Contribuições da Comunidade
 
