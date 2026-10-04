@@ -1,0 +1,7 @@
+Origin: OxyohanOS
+Label: OxyohanOS
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Repositorio de pacotes do OxyohanOS
