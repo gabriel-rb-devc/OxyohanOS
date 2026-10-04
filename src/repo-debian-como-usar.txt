@@ -1,0 +1,2 @@
+use o comando echo "deb [trusted=yes] https://gabriel-rb-devc.github.io/OxyohanOS/ stable main" | sudo tee /etc/apt/sources.list.d/oxyohanos.list 
+para adicionar o repo do oxyohan-os e depois de sudo apt update
