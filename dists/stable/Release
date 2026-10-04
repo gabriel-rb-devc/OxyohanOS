@@ -1,17 +1,23 @@
-Date: Sun, 04 Oct 2026 05:31:44 +0000
+Architectures: amd64
+Codename: stable
+Components: main
+Date: Sun, 04 Oct 2026 05:39:28 +0000
+Label: OxyohanOS
+Origin: OxyohanOS
+Suite: stable
 MD5Sum:
- 55821c657ffb1ae7df00ed9f1d45defe               38 Release
+ b7c9770dbff7903e08d66db944856563              142 Release
  df0d12a220938c1c58563e5eecbc9b9d             1806 main/binary-amd64/Packages
- 463175ba99a2f67abd04c9f058e268d5              976 main/binary-amd64/Packages.gz
+ d3b939c458d6f77c4890306806371ca2              976 main/binary-amd64/Packages.gz
 SHA1:
- 80e3abea97727cd5e95046dfd2d9439ce19879d9               38 Release
+ 6da235a0781ce2ed7bfcdf2ff713112197648b60              142 Release
  1fc850f6321f0251a6c70da9ce3f4b8943cf792f             1806 main/binary-amd64/Packages
- 21bce06f1512ef118a5b8ba4cbc9af1ce89e5fcd              976 main/binary-amd64/Packages.gz
+ 224ebd1d2af4ed9c52232edfe554be781a5f79ed              976 main/binary-amd64/Packages.gz
 SHA256:
- e763e02a74222cb51f624c9e948ad6563e92c4e7325df31590a0db30e9dfdbb7               38 Release
+ d9bfdb91c294b90cb139970bc209acd01c7bedfacc746ed7be4de84bc571ed84              142 Release
  2a933adf66b54bb2757525fa4327c09e5f1351cd400ff753a3c426a718808abb             1806 main/binary-amd64/Packages
- c24980e6691fb80dd453dfa51fffc9ccc2c7724ab86b73332c6945847980aff2              976 main/binary-amd64/Packages.gz
+ e0f165f742d5ef2808bfcfb04206fb21448d1d2e95ac83e0c53ed4b41edbdc6f              976 main/binary-amd64/Packages.gz
 SHA512:
- e0e9dfd99f3e997cd66b75be73cffdae3be30c89d734b358406bd7e3f01bed894427b8c8890368234b7d30a8f29ca51bed6576e26b7819005704ecb5d1df508d               38 Release
+ 53fc6df7adb811bc5ef24c68cb2e1f1be881bd517fada9e4b6dc49a10cf64af7e8119b06e3b6d76477ff2c7bc4af7f44a52437cb659996130bc9d7818501c9a7              142 Release
  d86abe9d8ee47664b2ec569fd3527aed174ad9c9140bfd84932cc5cae0e07f62f2ce2722980633e886d6e26ac3a7eb124682be1edbd8c7db7c591efba4c543f9             1806 main/binary-amd64/Packages
- 35734bc9b7dbb9e4f5cb2617c2b20bf686ba62858492fb2ec8a0327190ffc107748d14bd70a83cb029fee158d75582507468325d0a54ce582ccc82953d389d16              976 main/binary-amd64/Packages.gz
+ 5760829c2f4d4516ac94f31694e198b3e1c1d62e813319c0fe192efbda46cfb4e2ccd6d015544885472a506d5210b36414f9ab16f094c6be8ede3698ab0d7965              976 main/binary-amd64/Packages.gz
