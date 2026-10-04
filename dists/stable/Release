@@ -1,7 +1,17 @@
-Origin: OxyohanOS
-Label: OxyohanOS
-Suite: stable
-Codename: stable
-Architectures: amd64
-Components: main
-Description: Repositorio de pacotes do OxyohanOS
+Date: Sun, 04 Oct 2026 05:26:07 +0000
+MD5Sum:
+ 749dcf6f3566a555129721ddde47e927               38 Release
+ 8c9bd6aaaa3450404a14bab9049c4723             2321 main/binary-amd64/Packages
+ dde6a186e39b6dd0f5b98a37adfe31fb             1208 main/binary-amd64/Packages.gz
+SHA1:
+ 2fa724aa3f3223f723889d7eb74c5885eb9bccc0               38 Release
+ c2c0c88b175c23995c243a7f689df7edd7747ab3             2321 main/binary-amd64/Packages
+ 38de3e37925493e842c39cac613a5e6c3924d8bc             1208 main/binary-amd64/Packages.gz
+SHA256:
+ 1a8803b733f66df0495b9926bf8028c20c2f0f010940c91e73dc78329e2eba32               38 Release
+ ff9b68fc7a3f064a15f7067716b62e369aec51d274da0031630f86ae8b154817             2321 main/binary-amd64/Packages
+ a0d2a5c4d34f3ec812b00925320761c5bcb11d1b6a66e7673078be5f183f0941             1208 main/binary-amd64/Packages.gz
+SHA512:
+ 94443b1bfd91a6d995044757ddd9f574871c872488a0993a1b5653812b1bd87067fe94db334b6fbd8d36f8290b0aa0182e9bfa22e611baf3bcda1c9b42ec4044               38 Release
+ 50d99e458366e5a6b93d852d09d16ed16106f144a6c9f59179ded4a3af9f21de92513f2efb107161f6638793a914005d725a4bdc44007cc8f75fa59d51d4717d             2321 main/binary-amd64/Packages
+ 4798998815eb188c01505d6e9237af12a742f9fb65c957e308c9893d5ec803229ad306449ce4e0eca94ade08d569840c15305dd91b9131025f30b142172841ee             1208 main/binary-amd64/Packages.gz

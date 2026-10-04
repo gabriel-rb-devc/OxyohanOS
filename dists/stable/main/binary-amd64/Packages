@@ -1,14 +1,10 @@
 
  * Esperando na fila... 
 Os seguintes pacotes têm que ser instalados:
- dpkg-dev_1.23.7-1.fc44.noarch           Debian package development tools
- dpkg-perl_1.23.7-1.fc44.noarch          Dpkg perl modules
- perl-Digest-SHA_1:6.04-522.fc44.x86_64  Perl extension for SHA-1/224/256/384/512
- perl-Digest-SHA1_2.13-49.fc44.x86_64    Digest-SHA1 Perl module
- perl-Tie_4.6-525.fc44.noarch            Base classes for tying variables
- perl-Time-Piece_1.3600-525.fc44.x86_64  Time objects from localtime and gmtime
- perl-TimeDate_1:2.33-18.fc44.noarch     A Perl module for time and date manipulation
- xz-lzma-compat_1:5.8.2-2.fc44.x86_64    Older LZMA format compatibility binaries
+ apt_3.3.3-1.fc44.x86_64        Command-line package manager for Debian packages
+ apt-libs_3.3.3-1.fc44.x86_64   Runtime libraries for apt
+ apt-utils_3.3.3-1.fc44.x86_64  Package management related utility programs
+ libdb_5.3.28-67.fc44.x86_64    The Berkeley DB database library for C
 
  * Esperando na fila... 
  * Esperando pela autenticação... 
@@ -17,43 +13,46 @@ Os seguintes pacotes têm que ser instalados:
  * Executando... 
  * Instalando pacotes... 
 Package: centralmgr-for-OxyohanOS
-Version: 0.0.0.1a-1.0yama
 Architecture: amd64
+Version: 0.0.0.1a-1.0yama
+Priority: optional
+Section: utils
 Maintainer: OxyohanTeam <oxys.contact.official@gmail.com>
-Filename: stable/main/binary-amd64/CentarlMgrDeb.deb
+Filename: dists/stable/main/binary-amd64/CentarlMgrDeb.deb
 Size: 16832
 MD5sum: 69de3e6d0c06d68bed315a2fca1228be
 SHA1: 2c52091274447330d0effc5c246fcc97e91a92bc
 SHA256: d17a85cfd00e7f6b3c0e48b7e359b5593464f543edac8b4ceb0ee5207156cc17
-Section: utils
-Priority: optional
+SHA512: 685096d60593308dd04116064a599cadc900d5c23cb665b887990b761542b3c3d833c67b97eeef786371e835318158e4a4210784adba96e9de7162ff2264ff5a
 Description: Uma central de manuntenção para a distro linux OxyohanOS
 
-Package: ospkg
-Version: 1.0.0
-Architecture: amd64
-Maintainer: Gabriel <apeludoff120@gmail.com>
-Depends: git, gcc, make
-Filename: stable/main/binary-amd64/ospkg_v1.0.0_amd64.deb
-Size: 5228
-MD5sum: fd2c862b5ccb59da814f93669258cc0b
-SHA1: e33f703fc25e94aa5d9913e28d2a7a2c2ae16c4e
-SHA256: ed019b9160b63539adb8273eb62fd211fbf162784fe4fcd10e0c00c51150d3e0
-Section: utils
-Priority: optional
-Description: Gerenciador de pacotes leve focado em AppImages e scripts.
-
 Package: welcome-for-OxyohanOS
-Version: 0.1-1.0yama
 Architecture: amd64
+Version: 0.1-1.0yama
+Priority: optional
+Section: utils
 Maintainer: OxyohanTeam <oxys.contact.official@gmail.com>
-Filename: stable/main/binary-amd64/WelcomeOxyohanDeb.deb
+Filename: dists/stable/main/binary-amd64/WelcomeOxyohanDeb.deb
 Size: 50048
 MD5sum: 7a3e393edfb5fdee83085891cab8284d
 SHA1: a918917cbd82d829d89d633c7470ce659be24a34
 SHA256: fa440a5780e39ae75e5cffeaaec1a5f2c1ebac212983a4966343aadf14d8c1b0
-Section: utils
-Priority: optional
+SHA512: 61873f02885cbddb1e31ac5ce55eca07894dac6ac9bb66fd4eb2d5ea3f11004daccd4d1993105012255504a858f0d56b1b46a83417a62e1a9147f375785be220
 Description: Uma tela de boas vindas em Custom Tkinter
+
+Package: ospkg
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: Gabriel <apeludoff120@gmail.com>
+Depends: git, gcc, make
+Filename: dists/stable/main/binary-amd64/ospkg_v1.0.0_amd64.deb
+Size: 5228
+MD5sum: fd2c862b5ccb59da814f93669258cc0b
+SHA1: e33f703fc25e94aa5d9913e28d2a7a2c2ae16c4e
+SHA256: ed019b9160b63539adb8273eb62fd211fbf162784fe4fcd10e0c00c51150d3e0
+SHA512: 652a40e663c26b982ce10502f7fcc82cc32e4769c0436a7bd6e98f44effd31085615662f215188f13fa866ac2c2c63b5c158af9ed959a65cf8014861bc9bcf41
+Description: Gerenciador de pacotes leve focado em AppImages e scripts.
 
 
