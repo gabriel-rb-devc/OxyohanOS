@@ -1,0 +1,2 @@
+use o comando dpkg-scanpackages stable/main/binary-amd64/ > stable/main/binary-amd64/Packages
+gzip -k stable/main/binary-amd64/Packages toda fez que tira modificar ou adicionar algum .deb em /OxyohanOS/stable/main/binary-amd64
