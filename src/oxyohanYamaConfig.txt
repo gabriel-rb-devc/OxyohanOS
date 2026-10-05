@@ -1,0 +1,17 @@
+OxyohanOS 1.0 "Yama" XFCE Edition:
+Papéis de Parede: lowCortisol.png, muro.png, waves.png, classic.png
+DE: Xfce
+Theme: AeroMashup
+Taskbar: top
+Plank Dock: bottom
+Programas Essenciais: nano, centralmgr, welcome-to-oxyohan, gedit, firefox, thunar, cfdisk, apt, htop, btop, speedtestcli, nmtui, inxi, deluser, lshw, dmesg, fastfetch, plank, vlc, celluloid, eog, gnome-2048, gimp, libreoffice, python3-tk, python3-pip, python3-venv python3-full
+Scripts durante a inicialização: installcustomtkinter.sh
+
+OxyohanOS 1.0 "Yama" Cinnamon Edition:
+Papéis de Parede: lowCortisol.png, muro.png, waves.png, classic.png
+DE: Cinnamon
+Theme: (O tema aero que o @fprowindows criar para o cinnamon)
+Taskbar: top
+Plank Dock: bottom
+Programas Essenciais: nano, centralmgr, welcome-to-oxyohan, gedit, firefox, thunar, cfdisk, apt, htop, btop, speedtestcli, nmtui, inxi, deluser, lshw, dmesg, fastfetch, plank, vlc, celluloid, eog, gnome-2048, gimp, libreoffice, python3-tk, python3-pip, python3-venv python3-full
+Scripts durante a inicialização: installcustomtkinter.sh
