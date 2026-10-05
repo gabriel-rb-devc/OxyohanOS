@@ -10,8 +10,10 @@ Scripts durante a inicialização: installcustomtkinter.sh
 OxyohanOS 1.0 "Yama" Cinnamon Edition:
 Papéis de Parede: lowCortisol.png, muro.png, waves.png, classic.png
 DE: Cinnamon
-Theme: (O tema aero que o @fprowindows criar para o cinnamon)
+Theme: WhiteSur e Papirus
 Taskbar: top
-Plank Dock: bottom
-Programas Essenciais: nano, centralmgr, welcome-to-oxyohan, gedit, firefox, thunar, cfdisk, apt, htop, btop, speedtestcli, nmtui, inxi, deluser, lshw, dmesg, fastfetch, plank, vlc, celluloid, eog, gnome-2048, gimp, libreoffice, python3-tk, python3-pip, python3-venv python3-full
+Plank Dock: inferior com tema gtk
+Programas Essenciais: nano, centralmgr, welcome-to-oxyohan, gedit, firefox, thunar, cfdisk, apt, htop, btop, speedtestcli, nmtui, inxi, deluser, lshw, dmesg, fastfetch, plank, vlc, celluloid, eog, gnome-2048, gimp, libreoffice, python3-tk, python3-pip, python3-venv python3-full, calamres, papirus, WhiteSur-black
 Scripts durante a inicialização: installcustomtkinter.sh
+repo : oficial https://gabriel-rb-devc.github.io/OxyohanOS/ stable main
+
