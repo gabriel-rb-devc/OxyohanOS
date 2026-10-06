@@ -26,7 +26,7 @@ Este projeto é mantido em colaboração oficial entre os canais:
 
 ---
 
-![wall](imagens/WallpaperYohan.png)
+![wall](src/backgrounds/lowCortisol.png)
 ## 🎨 Resumo do OxyohanOS
 *   **Desenvolvedor:** Johnzin (`@JohnzinOmochain`)
 *   **sub desenvolvedor** Gabriel Ramos Barbosa
