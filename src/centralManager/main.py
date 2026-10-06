@@ -1,7 +1,3 @@
-# Central Manager for Oxyohan OS
-# 0.0.0.1a
-# Criado por JohnzinOmochain
-
 import os
 import sys
 import subprocess
@@ -19,6 +15,18 @@ def menuserviceMgr():
 def userserviceMgr():
   print("========================================")
   print("|            User Manager              |")
+  print("|      Criado por JohnzinOmochain      |")
+  print("========================================")
+  
+def diagnosisMsg():
+  print("========================================")
+  print("|        Diagnóstico do Sistema        |")
+  print("|      Criado por JohnzinOmochain      |")
+  print("========================================")
+  
+def manuntMsg():
+  print("========================================")
+  print("|        Manuntenção do Sistema        |")
   print("|      Criado por JohnzinOmochain      |")
   print("========================================")
 
@@ -42,7 +50,7 @@ def pausar():
 # Lets see Partit
 def ver_particoes():
   limpar_tela()
-  print("=== Partições Disponíveis (lsblk) ===")
+  print("Partições Disponíveis (lsblk)")
   subprocess.run(["lsblk", "-f"])
   pausar()
   
@@ -112,6 +120,7 @@ def nano():
 def pingYeah():
   try:
     subprocess.run(["ping", "-c", "3", "8.8.8.8"], check=True)
+    pausar()
   except subprocess.CalledProcessError:
     print("Erro 103 - Você não tem permissão de root para o ping", file=sys.stderr)
     pausar()
@@ -508,6 +517,77 @@ def syu():
   except subprocess.CalledProcessError:
     print("Você cancelou a atulização", file=sys.stderr)
     pausar()
+    
+# Diagnosis
+def diagnosisYeah():
+  limpar_tela()
+  diagnosisMsg()
+  print("1 - Voltar ao Início")
+  print("2 - Monitorar o Sistema (2.1 - btop | 2.2 - htop)")
+  print("2.5 - Atualizar o sistema (2.5.1 - APT update | 2.5.2 - APT upgrade)")
+  print("3 - Ver os logs do kernel")
+  print("4 - Verificar o PING")
+  print("5 - Ver a versão do sistema")
+  print("6 - Diagnóstico rápido (Espaço em disco / RAM)")
+  print("7 - Mostrar as particoes")
+  
+  inpush = input('-> ')
+  
+  if inpush == "1":
+    sess = False
+  elif inpush == "2.1":
+    btop()
+    limpar_tela()
+  elif inpush == "2.2":
+    htop()
+    limpar_tela()
+  elif inpush == "2.5.1":
+    aptUpd()
+    limpar_tela()
+  elif inpush == "2.5.2":
+    aptUpg()
+    limpar_tela()
+  elif inpush == "3":
+    logs()
+    limpar_tela()
+  elif inpush == "4":
+    pingYeah()
+    print("")
+  elif inpush == "5":
+    versionYeah()
+    limpar_tela()
+  elif inpush == "6":
+    verificar_integridade()
+    limpar_tela()
+  elif inpush == "7":
+    ver_particoes()
+    limpar_tela()
+  else:
+    print("Comando não detectado")
+
+# Gerenciamento
+def gYeah():
+  limpar_tela()
+  manuntMsg()
+  print("1 - Voltar ao Início")
+  print("2 - Gerenciar redes (nmtui)")
+  print("3 - Abrir o NANO")
+  print("4 - Gerenciar Partições (cfdisk)")
+  inpush = input('-> ')
+  
+  if inpush == "1":
+    sess = False
+  elif inpush == "2":
+    nmtui()
+    limpar_tela()
+  elif inpush == "3":
+    nano()
+    limpar_tela()
+  elif inpush == "4":
+    cfdisk()
+    limpar_tela()
+  else:
+    print("Comando não detectado")
 
 # Input e ações
 while session == True:
@@ -517,83 +597,34 @@ while session == True:
   print("|            Ultra Oxyohan Central Manager                |")
   print("|             Criado por JohnzinOmochain                  |")
   print("----------------------------------------------------------")
-  print("|                      0.0.0.1a                           |")
+  print("|                       0.0.0.2                           |")
   print("===========================================================")
   print("1 - Sair")
-  print("2 - Mostrar data e hora")
-  print("3 - Mostrar as particoes")
-  print("4 - Gerenciar partições (cfdisk)")
-  print("5 - Diagnóstico rápido (Espaço em disco / RAM)")
-  print("6 - Monitorar o Sistema (6.1 - btop | 6.2 - htop) (Ctrl+C sai do btop e F10 do htop)")
-  print("7 - Gerenciar redes (nmtui)")
-  print("8 - Abrir o NANO (Para consertar algum arquivo de configuração)")
-  print("9 - Verificar o PING")
-  print("10 - Iniciar o Xorg")
-  print("11 - Reiniciar")
-  print("12 - Ver a versão do sistema")
-  print("13 - Gerenciador de Servicos")
-  print("14 - Testar a velocidade da Internet (Speed Test Cli)")
-  print("15 - Ver os logs do kernel")
-  print("16 - Atualizar o sistema (16.1 - APT update | 16.2 - APT upgrade)")
-  print("17 - Gerenciador de Usuários")
-  print("18 - Ver RESUMO do hardware do PC")
+  print("2 - Diagnóstico")
+  print("3 - Manuntenção")
+  print("4 - Gerenciador de Servicos")
+  print("5 - Gerenciador de Usuários")
+  print("6 - Iniciar o Xorg")
+  print("7 - Reiniciar")
   inpuu = input('-> ')
   if inpuu == "1":
     # Fecha o programa
     session = False
-  elif inpuu == "2":
-    print(subprocess.run("date"))
-  elif inpuu == "3":
-    ver_particoes()
-    limpar_tela()
-  elif inpuu == "4":
-    cfdisk()
-    limpar_tela()
-  elif inpuu == "5":
-    verificar_integridade()
-    limpar_tela()
-  elif inpuu == "6.1":
-    btop()
-    limpar_tela()
-  elif inpuu == "6.2":
-    htop()
-    limpar_tela()
-  elif inpuu == "7":
-    nmtui()
-    limpar_tela()
-  elif inpuu == "8":
-    nano()
-    limpar_tela()
-  elif inpuu == "9":
-    pingYeah()
-    print("")
-  elif inpuu == "10":
+  elif inpuu == "6":
     XorgInit()
-  elif inpuu == "11":
+  elif inpuu == "7":
     print(subprocess.run("reboot"))
-  elif inpuu == "12":
-    versionYeah()
-    limpar_tela()
-  elif inpuu == "13":
+  elif inpuu == "4":
     systemctl()
     limpar_tela()
-  elif inpuu == "14":
-    stcli()
-    limpar_tela()
-  elif inpuu == "15":
-    logs()
-    limpar_tela()
-  elif inpuu == "16.1":
-    aptUpd()
-    limpar_tela()
-  elif inpuu == "16.2":
-    aptUpg()
-    limpar_tela()
-  elif inpuu == "17":
+  elif inpuu == "5":
     userctlYeah()
     limpar_tela()
-  elif inpuu == "18":
-    inxi()
+  elif inpuu == "3":
+    gYeah()
+    limpar_tela()
+  elif inpuu == "2":
+    diagnosisYeah()
     limpar_tela()
   else:
     limpar_tela()
