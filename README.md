@@ -25,7 +25,7 @@ Este projeto é mantido em colaboração oficial entre os canais:
 *   🎬 **JohnzinOmochain:** [Acesse o Canal no YouTube](https://youtube.com/@johnzinomochain?si=dPvf7zzrf67kuxji)
 
 ---
-#Aviso o oxys os ou tambem conhecido como oxy os foi descontinuado pois ja a outro sistema opercaional com o mesmo|parecido nome com o link oxy.os | oxy.os/os
+> **Aviso:** O Oxys OS foi descontinuado nesta estrutura, pois já existe outro projeto de sistema operacional com nome idêntico/similar em [oxy.so](https://oxy.so/os). Em sinal de respeito e para evitar ambiguidade na comunidade, o projeto nesta nomenclatura foi encerrado. Deixamos aqui nosso máximo respeito aos desenvolvedores do oxy.so/os.
 ---
 
 ![wall](src/backgrounds/lowCortisol.png)
