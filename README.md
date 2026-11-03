@@ -14,6 +14,9 @@
 [![GitHub Release](https://img.shields.io/github/v/release/linux-oxy-retro-cyber/ODE-oxy-os-debian-edition?color=blue&logo=github)](https://github.com/linux-oxy-retro-cyber/ODE-oxy-os-debian-edition/releases)
 [![Indie](https://img.shields.io/badge/Type-Indie_Project-FF4500?logo=rocket&logoColor=white)]()
 [![Community](https://img.shields.io/badge/Project-Community-7289DA?logo=github&logoColor=white)]()
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 </div>
 ---
 
