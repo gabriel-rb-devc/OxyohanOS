@@ -28,7 +28,7 @@ Este projeto é mantido em colaboração oficial entre os canais:
 > **Aviso:** O Oxys OS foi descontinuado nesta estrutura, pois já existe outro projeto de sistema operacional com nome idêntico/similar em [oxy.so](https://oxy.so/os). Em sinal de respeito e para evitar ambiguidade na comunidade, o projeto nesta nomenclatura foi encerrado. Deixamos aqui nosso máximo respeito aos desenvolvedores do oxy.so/os.
 ---
 
-![wall](src/backgrounds/lowCortisol.png)
+![wall](/src/backgrouds/lowCortisol.png)
 ## 🎨 Resumo do OxyohanOS
 *   **Desenvolvedor:** Johnzin (`@JohnzinOmochain`)
 *   **sub desenvolvedor** Gabriel Ramos Barbosa
