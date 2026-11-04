@@ -41,3 +41,31 @@ SHA256: ed019b9160b63539adb8273eb62fd211fbf162784fe4fcd10e0c00c51150d3e0
 SHA512: 652a40e663c26b982ce10502f7fcc82cc32e4769c0436a7bd6e98f44effd31085615662f215188f13fa866ac2c2c63b5c158af9ed959a65cf8014861bc9bcf41
 Description: Gerenciador de pacotes leve focado em AppImages e scripts.
 
+Package: wmaker
+Architecture: amd64
+Version: 0.96.0-4
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Maintainer: Debian Window Maker Team <team+wmaker@tracker.debian.org>
+Installed-Size: 1425
+Provides: x-window-manager
+Depends: wmaker-common (= 0.96.0-4), libc6 (>= 2.38), libexif12 (>= 0.6.21-1~), libfontconfig1 (>= 2.12.6), libwings3 (>= 0.96.0), libwraster6 (>= 0.96.0), libwutil5 (>= 0.96.0), libx11-6, libxext6, libxinerama1 (>= 2:1.1.4), libxpm4
+Suggests: desktop-base, wmaker-data, wmaker-utils, x-terminal-emulator, x11-apps, xterm
+Breaks: wmaker-common (<< 0.95.8-2~)
+Replaces: wmaker-common (<< 0.95.8-2~)
+Filename: dists/stable/main/binary-amd64/wmaker_0.96.0-4_amd64.deb
+Size: 507232
+MD5sum: 95032475a21e9b7e6845b7dda38dc256
+SHA1: 1e1484251e539d0e901b683e27be89b16c1d171b
+SHA256: 35badf83a939a77b1a0ee088e81efa9fa86e9fbfbda30891d58c0afbb75cca17
+SHA512: 68518e492e4031c567606cfbca6f5e9966949d79c586f0f54da9cef6231656b3485ca8331789d2806e68882f9f081608edc40fac8ba8aef4d8d5926b9a0aca94
+Homepage: https://www.windowmaker.org/
+Description: NeXTSTEP-like window manager for X
+ Written by Alfredo Kojima almost from scratch, resembles the NeXTStep look
+ very closely, and it is now an official GNU project. Window Maker (originally
+ named WindowMaker) is not overloaded with features, and it is easier to
+ configure than most other window managers. Its final goal is to produce a
+ window manager that doesn't require editing of configuration files.
+ Window Maker is fast and doesn't require tons of memory to run.
+

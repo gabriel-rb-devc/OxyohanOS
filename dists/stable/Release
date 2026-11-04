@@ -1,23 +1,23 @@
 Architectures: amd64
 Codename: stable
 Components: main
-Date: Sun, 04 Oct 2026 05:39:28 +0000
+Date: Wed, 04 Nov 2026 00:12:29 +0000
 Label: OxyohanOS
 Origin: OxyohanOS
 Suite: stable
 MD5Sum:
- b7c9770dbff7903e08d66db944856563              142 Release
- df0d12a220938c1c58563e5eecbc9b9d             1806 main/binary-amd64/Packages
- d3b939c458d6f77c4890306806371ca2              976 main/binary-amd64/Packages.gz
+ cdc73f924413f04f50a2cfeb77f68e34              142 Release
+ 8bd04c3e1f4a9f68b1f841a7e1a7de22             3331 main/binary-amd64/Packages
+ 0607502510bbb6e1756667c6068a2318             1750 main/binary-amd64/Packages.gz
 SHA1:
- 6da235a0781ce2ed7bfcdf2ff713112197648b60              142 Release
- 1fc850f6321f0251a6c70da9ce3f4b8943cf792f             1806 main/binary-amd64/Packages
- 224ebd1d2af4ed9c52232edfe554be781a5f79ed              976 main/binary-amd64/Packages.gz
+ e39492963b0e26ce4f8d45eca301f246b16b08a6              142 Release
+ 4b5c657cb438421b42055c0b0bd5310d1e016160             3331 main/binary-amd64/Packages
+ 87ff0be3c20e2fc08aab289eee7dc1fb962e3b96             1750 main/binary-amd64/Packages.gz
 SHA256:
- d9bfdb91c294b90cb139970bc209acd01c7bedfacc746ed7be4de84bc571ed84              142 Release
- 2a933adf66b54bb2757525fa4327c09e5f1351cd400ff753a3c426a718808abb             1806 main/binary-amd64/Packages
- e0f165f742d5ef2808bfcfb04206fb21448d1d2e95ac83e0c53ed4b41edbdc6f              976 main/binary-amd64/Packages.gz
+ 2496d7bdce73331d69d65c55c241b83c81e2e65a5d1a60a86ae505f52b57bf4c              142 Release
+ 9ed7d5e3ef69a750bd4c480a1aef9de63db63564be3701e337b50475895a753d             3331 main/binary-amd64/Packages
+ 154e0baa84ea20bdcd4489df0ede4cb3ad7f7bd24f6a263ae54a53958b8132e2             1750 main/binary-amd64/Packages.gz
 SHA512:
- 53fc6df7adb811bc5ef24c68cb2e1f1be881bd517fada9e4b6dc49a10cf64af7e8119b06e3b6d76477ff2c7bc4af7f44a52437cb659996130bc9d7818501c9a7              142 Release
- d86abe9d8ee47664b2ec569fd3527aed174ad9c9140bfd84932cc5cae0e07f62f2ce2722980633e886d6e26ac3a7eb124682be1edbd8c7db7c591efba4c543f9             1806 main/binary-amd64/Packages
- 5760829c2f4d4516ac94f31694e198b3e1c1d62e813319c0fe192efbda46cfb4e2ccd6d015544885472a506d5210b36414f9ab16f094c6be8ede3698ab0d7965              976 main/binary-amd64/Packages.gz
+ 5d3c2dfcea8108dc9ea44971d113d2aed2e1f1225a7d234aec2fbd48666f0d64362c823ad0c0cfc6ac4f586e3e3e350f7962b2b2b15d20da3e71986707e2b937              142 Release
+ e1518f2cdc155a994203512f1decd265f567b8b9a326590a7d1fbd0461e20f8cd120c035c623f936cc1042ec9bbc29664574c38e3894eb5e08a18e361ba49909             3331 main/binary-amd64/Packages
+ fbaad4ab5b5cc19ba652899a92f3ba18fd4890d8680a0767cf4491b37b25a52c8910ec9e6ed65f4c5243f72e05cec5e568b00747666a7ee40362351ba4f25491             1750 main/binary-amd64/Packages.gz
